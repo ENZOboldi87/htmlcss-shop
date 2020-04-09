@@ -1,0 +1,87 @@
+/* regola generale */
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+
+}
+/* fine regola generale */
+
+/* regola mainwrapper */
+
+.mainwrapper {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+/* fine regola mainwrapper */
+
+
+/* regole righe */
+
+.primariga .secondariga {
+  position: relative;
+  top: 0;
+  vertical-align: top;
+}
+/* fine regole righe */
+
+/* regole prodotti */
+
+.prodotti {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 300px;
+
+}
+/* fine regole prodotti */
+
+/* regole sconto */
+
+.prodotti .codicesconto30 {
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: green;
+
+}
+
+.prodotti .codicesconto5 {
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+}
+
+/* fine regole sconto */
+
+/* regole cuori */
+
+#cuorerosso {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  color: red;
+  font-size: 20px;
+
+}
+
+.cuore {
+position: absolute;
+bottom: 2%;
+left: 50% ;
+display: none;
+font-size: 39px;
+
+}
+
+.prodotti:hover .cuore {
+  display: inline-block;
+
+}
+/* fine regole cuori  */
